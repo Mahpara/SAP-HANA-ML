@@ -25,26 +25,21 @@ def main():
         print(f"Failed to upload data: {e}")
         return
 
-    # Step 4: Query and prepare data for training
     try:
-        print(f"Querying data from table '{table_name}'...")
-        hana_df = connection.table(table_name)
+        hana_df = connection.table(table_name)  # query data
         print(f"Data schema: {hana_df.dtypes()}")
     except Exception as e:
         print(f"Failed to query data: {e}")
         return
 
-    # Step 5: Split data into features and target
     features = [col for col in hana_df.columns if col != 'quality']
     target = 'quality'
-
-    # Step 6: Train a Polynomial Regression model
-    print("Training Polynomial Regression model...")
-    model = PolynomialRegression(degree=1)  # Degree 1 corresponds to linear regression
+    # train the model
+    model = PolynomialRegression(degree=1)  # degree 1 corresponds to linear regression
     model.fit(hana_df, features=features, label=target)
     print("Model trained successfully!")
 
-    # Step 7: Evaluate the model
+    # evaluate
     try:
         predictions = model.predict(hana_df).collect()
         print("Sample predictions:")
