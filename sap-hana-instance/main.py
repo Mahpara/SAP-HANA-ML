@@ -34,7 +34,7 @@ def main():
 
     features = [col for col in hana_df.columns if col != 'quality']
     target = 'quality'
-    # train the model
+    # train model
     model = PolynomialRegression(degree=1)  # degree 1 corresponds to linear regression
     model.fit(hana_df, features=features, label=target)
     print("Model trained successfully!")
