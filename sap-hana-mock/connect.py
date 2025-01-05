@@ -6,7 +6,7 @@ class MockConnection:
 
     def create_dataframe_from_pandas(self, data, table_name, force=False):
         self.data[table_name] = data
-        print(f"Simulated table '{table_name}' created.")
+        print(f"Table '{table_name}' created.")
         return pd.DataFrame(data)
 
     def sql(self, query):

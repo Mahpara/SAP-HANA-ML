@@ -12,10 +12,10 @@ def main():
     data['quality'] = pd.to_numeric(wine_data.target)
     print(data.head())
 
-
     table_name = "WINE_QUALITY"
+    
     try:
-        print(f"Uploading data to simulated table '{table_name}'...")
+        print(f"Uploading data...")
         connection.create_dataframe_from_pandas(data.to_dict(orient="records"), table_name=table_name)
     except Exception as e:
         print(f"Failed to upload data: {e}")
@@ -24,11 +24,10 @@ def main():
 
     try:
         result = connection.sql(f"SELECT * FROM {table_name}").to_dict(orient="records")
-
     except Exception as e:
         print(f"Failed to query data: {e}")
 
-    # Performing analysis
+    # Performing some analysis
     try:
         avg_quality = sum([float(row['quality']) for row in result]) / len(result)
         print(f"The average wine quality is: {avg_quality:.2f}")
