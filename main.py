@@ -26,7 +26,6 @@ def main():
 
         result = connection.sql(f"SELECT * FROM {table_name}").to_dict(orient="records")
 
-        # print(result[:5])  # Printing first 5 rows
     except Exception as e:
         print(f"Failed to query data: {e}")
 
