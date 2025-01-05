@@ -15,5 +15,5 @@ def connect_to_hana():
         print("Connection successful!")
         return conn
     except Exception as e:
-        print(f"Failed to connect to SAP HANA: {e}")
+        print(f"Failed to connect: {e}")
         return None
