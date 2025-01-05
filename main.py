@@ -23,7 +23,6 @@ def main():
 
 
     try:
-
         result = connection.sql(f"SELECT * FROM {table_name}").to_dict(orient="records")
 
     except Exception as e:
