@@ -12,14 +12,14 @@ class MockConnection:
     def sql(self, query):
         table_name = query.split("FROM")[1].strip().split()[0]
         if table_name in self.data:
-            # print(f"Simulated query executed: {query}")
+
             return pd.DataFrame(self.data[table_name])
         else:
             raise ValueError(f"Table '{table_name}' does not exist.")
 
 def connect_to_hana():
     """
-    Simulates a mock connection to SAP HANA.
+    Simulating a mock connection to SAP HANA.
     """
 
     return MockConnection()
