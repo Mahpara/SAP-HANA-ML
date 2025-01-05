@@ -1,6 +1,6 @@
 # Wine Quality Analysis with SAP HANA Integration
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/License-MIT-yellow.svg)]
 ## Overview
 This repository shows the integration of machine learning workflows using the `hana-ml` library with SAP HANA (simulated). It uses the **Wine Quality** dataset for demonstration purposes. More about this dataset [here](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset).
 
