@@ -1,5 +1,5 @@
 # Wine Quality Analysis with SAP HANA Integration
-![Python Logo](./python-logo.png)
+
 ## Overview
 
 This repository demonstrates the integration of machine learning workflows using the `hana-ml` library with SAP HANA. The project is organized into two main components:
