@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Run the Script
-Run the main.py script in the appropriate folder.
+Run the main.py script in the appropriate folder:
 ```bash
 python main.py
 ```
