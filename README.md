@@ -4,7 +4,7 @@
 ![hana-ml](https://img.shields.io/badge/hana--ml-v2.12-blue?logo=SAP)
 ![pandas](https://img.shields.io/badge/pandas-v1.5.2-green?logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.2-orange?logo=scikit-learn&logoColor=white)
-![OpenML](./assets/openml-logo.png)
+![OpenML](https://www.openml.org/img/openml-logo.png)
 
 ## Overview
 
