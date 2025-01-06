@@ -1,5 +1,10 @@
 # Wine Quality Analysis with SAP HANA Integration
 
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
+![hana-ml](https://img.shields.io/badge/hana--ml-v2.12-blue?logo=SAP)
+![pandas](https://img.shields.io/badge/pandas-v1.5.2-green?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.2-orange?logo=scikit-learn&logoColor=white)
+
 ## Overview
 
 This repository demonstrates the integration of machine learning workflows using the `hana-ml` library with SAP HANA. The project is organized into two main components:
