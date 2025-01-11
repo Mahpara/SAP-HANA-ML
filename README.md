@@ -5,6 +5,7 @@
 ![pandas](https://img.shields.io/badge/pandas-v1.5.2-green?logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.2-orange?logo=scikit-learn&logoColor=white)
 ![OpenML](https://img.shields.io/badge/OpenML-D00000?logo=openml&logoColor=white)
+![Hits](https://hits.sh/github.com/Mahpara/sap-hana-ml.svg?style=flat-square&label=Clones&color=green)
 
 ## Overview
 
