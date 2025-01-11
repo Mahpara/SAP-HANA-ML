@@ -6,6 +6,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.2-orange?logo=scikit-learn&logoColor=white)
 ![OpenML](https://img.shields.io/badge/OpenML-D00000?logo=openml&logoColor=white)
 ![Hits](https://hits.sh/github.com/Mahpara/sap-hana-ml.svg?style=flat-square&label=Clones&color=green)
+![GitHub All Releases](https://img.shields.io/github/downloads/Mahpara/sap-hana-ml/total?logo=github&logoColor=white)
 
 ## Overview
 
